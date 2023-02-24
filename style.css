@@ -1,0 +1,46 @@
+body{
+    background-size: cover;
+   
+}
+h1{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20;
+color: blue;
+font-weight: 100;
+animation-name: lol;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+canvas{
+    background-color: azure;
+    border:solid;
+    border-color: yellow;
+    border-width:10px;
+}
+@keyframes lol{
+    0%{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20;
+        color: blue;
+        font-weight: 100;
+    }
+    25%{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30;
+        color: greenyellow;
+        font-weight: 200;
+    }
+    75%{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 40;
+color: red;
+font-weight: 400;
+    }
+   
+    100%{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 50;
+        color:yellow ;
+        font-weight: 800;
+    }
+}
