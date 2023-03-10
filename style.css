@@ -12,8 +12,7 @@ animation-duration: 10s;
 animation-iteration-count: infinite;
 }
 canvas{
-    background-color: azure;
-    border:solid;
+    border:ridge ;
     border-color: yellow;
     border-width:10px;
 }
