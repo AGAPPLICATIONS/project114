@@ -15,6 +15,9 @@ canvas{
     border:ridge ;
     border-color: yellow;
     border-width:10px;
+    animation-name: lolxd;
+animation-duration: 15s;
+animation-iteration-count: infinite;
 }
 @keyframes lol{
     0%{
@@ -42,4 +45,35 @@ font-weight: 400;
         color:yellow ;
         font-weight: 800;
     }
+}
+@keyframes lolxd{
+ 0%{
+    border-color: yellow;
+    border-width:10px;
+ }
+ 20%{
+    border-color: rgb(0, 255, 72);
+    border-width:15px;
+ }
+ 40%{
+        border-color: rgb(0, 255, 247);
+        border-width:20px;
+ }
+ 60%{
+    border-color: rgb(30, 0, 255);
+        border-width:25px;
+ }
+ 80%{
+    border-color: rgb(255, 0, 111);
+        border-width:30px;
+ }
+ 100%{
+    border-color:rgb(255,0,0);
+    border-width:35px;
+ }
+ 
+
+ 
+
+
 }
